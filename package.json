@@ -34,7 +34,6 @@
     ]
   },
   "dependencies": {
-    "@nuxtjs/axios": "^4.4.0",
     "wpapi": "^1.1.2"
   },
   "devDependencies": {
