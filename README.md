@@ -56,4 +56,4 @@ export default {
 
 [MIT License](./LICENSE)
 
-MIT © Yasar Kücükkaya
+Copyright (c) [yashha](https://github.com/yashha)
