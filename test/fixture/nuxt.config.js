@@ -6,6 +6,8 @@ module.exports = {
   },
   modules: [
     '@nuxtjs/axios',
-    ['@@', {}]
+    ['@@', {
+      endpoint: 'https://wp.kmr.io/wp-json'
+    }]
   ]
 }
