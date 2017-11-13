@@ -10,9 +10,7 @@
 <script>
 export default {
   async asyncData ({ app, store, params }) {
-    let articles = await app.$axios.get(`${store.state.wp.wordpressAPI}/wp/v2/posts?orderby=date&per_page=10&_embed`)
-    store.commit('wp/setArticles', articles.data)
-    return { articles: articles.data }
+    return { articles: await app.$wp.posts().perPage(10) }
   }
 }
 </script>
