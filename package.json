@@ -1,0 +1,42 @@
+{
+  "name": "wp-nuxt",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "yasark <yasarkkk@protonmail.com>"
+    }
+  ],
+  "main": "lib/module.js",
+  "repository": "https://github.com/",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "npm run lint && jest",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "eslintIgnore": [
+    "lib/templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "lib",
+      "test"
+    ]
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^4.4.0"
+  },
+  "devDependencies": {
+    "nuxt-module-builder": "latest"
+  }
+}
