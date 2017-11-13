@@ -1,7 +1,7 @@
 # wp-nuxt
 [![npm (scoped with tag)](https://img.shields.io/npm/v/wp-nuxt/latest.svg?style=flat-square)](https://npmjs.com/package/wp-nuxt)
 [![npm](https://img.shields.io/npm/dt/wp-nuxt.svg?style=flat-square)](https://npmjs.com/package/wp-nuxt)
-[![CircleCI](https://img.shields.io/circleci/github/yashha/wp-nuxt.svg?style=flat-square)](https://circleci.com/gh/)
+[![CircleCI](https://img.shields.io/circleci/project/github/yashha/wp-nuxt.svg?style=flat-square)](https://circleci.com/gh/)
 [![Codecov](https://img.shields.io/codecov/c/github/yashha/wp-nuxt.svg?style=flat-square)](https://codecov.io/gh/)
 [![Dependencies](https://david-dm.org/yashha/wp-nuxt/status.svg?style=flat-square)](https://david-dm.org/)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
