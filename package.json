@@ -35,7 +35,7 @@
     ]
   },
   "dependencies": {
-    " ": "^1.1.2"
+    "wpapi": "^1.1.2"
   },
   "devDependencies": {
     "axios": "^0.18.0",
