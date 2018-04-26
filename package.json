@@ -16,6 +16,7 @@
   "scripts": {
     "lint": "eslint lib test",
     "test": "npm run lint && jest",
+    "codecov": "jest --coverage",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "eslintIgnore": [
