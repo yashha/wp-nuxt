@@ -16,7 +16,7 @@
   "scripts": {
     "lint": "eslint lib test",
     "test": "npm run lint && jest",
-    "codecov": "jest --coverage",
+    "codecov": "codecov",
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "eslintIgnore": [
@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "axios": "^0.18.0",
+    "codecov": "^3.0.0",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.11.0",
