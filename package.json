@@ -15,7 +15,9 @@
   },
   "scripts": {
     "lint": "eslint lib test",
-    "start": "nuxt -c test/fixture/nuxt.config.js",
+    "start": "npm run build && nuxt start",
+    "dev": "nuxt -c test/fixture/nuxt.config.js",
+    "build": "nuxt build -c test/fixture/nuxt.config.js",
     "analyze": "nuxt build --analyze -c test/fixture/nuxt.config.js",
     "test": "npm run lint && jest",
     "codecov": "codecov",
