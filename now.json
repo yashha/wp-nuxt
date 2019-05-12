@@ -5,6 +5,7 @@
     "wp-nuxt"
   ],
   "files": [
+    "lib",
     "test"
   ]
 }
