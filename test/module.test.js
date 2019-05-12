@@ -1,4 +1,4 @@
-jasmine.DEFAULT_TIMEOUT_INTERVAL = 20000
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000
 process.env.PORT = process.env.PORT || 5060
 process.env.NODE_ENV = 'production'
 
@@ -25,7 +25,7 @@ describe('Module', () => {
   })
 
   test('render', async () => {
-    let response = await get('/')
+    const response = await get('/')
     expect(response.data).toContain('Markup:')
   })
 })
