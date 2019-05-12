@@ -1,0 +1,10 @@
+{
+  "name": "wp-nuxt",
+  "version": 1,
+  "alias": [
+    "wp-nuxt"
+  ],
+  "files": [
+    "test"
+  ]
+}
