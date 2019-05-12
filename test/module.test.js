@@ -1,4 +1,4 @@
-jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 35000
 process.env.PORT = process.env.PORT || 5060
 process.env.NODE_ENV = 'production'
 
