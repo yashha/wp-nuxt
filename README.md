@@ -14,7 +14,7 @@
 
 The module adds [WP-API](https://github.com/WP-API/node-wpapi) to your nuxt application.
 
-The size of the library is 23,8 kB minified (5,81 kB gzipped).
+The size of the library is 49,8 kB minified (14 kB gzipped). [![npm bundle size](https://img.shields.io/bundlephobia/minzip/wpapi.svg)](https://bundlephobia.com/result?p=wpapi)
 
 ## Setup
 
