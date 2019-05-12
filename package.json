@@ -15,7 +15,8 @@
   },
   "scripts": {
     "lint": "eslint lib test",
-    "start": "npm run build && nuxt start",
+    "start": "npm run build && npm run start:server",
+    "start:server": "nuxt start -c test/fixture/nuxt.config.js",
     "dev": "nuxt -c test/fixture/nuxt.config.js",
     "build": "nuxt build -c test/fixture/nuxt.config.js",
     "analyze": "nuxt build --analyze -c test/fixture/nuxt.config.js",
