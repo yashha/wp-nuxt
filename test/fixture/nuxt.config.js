@@ -9,7 +9,7 @@ module.exports = {
     resourceHints: false
   },
   modules: [
-    ['@@', {
+    ['~/../../', {
       endpoint: 'https://wp.kmr.io/wp-json'
     }]
   ]
