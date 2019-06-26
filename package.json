@@ -1,6 +1,6 @@
 {
   "name": "wp-nuxt",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "",
   "license": "MIT",
   "contributors": [
@@ -22,7 +22,7 @@
     "analyze": "nuxt build --analyze -c test/fixture/nuxt.config.js",
     "test": "npm run lint && jest",
     "codecov": "codecov",
-    "release": "npm test && standard-version && git push --follow-tags && npm publish"
+    "release": "yarn test && standard-version && git push --follow-tags && yarn publish"
   },
   "eslintIgnore": [
     "lib/templates/*.*"
