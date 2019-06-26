@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/wp-nuxt.svg?style=flat-square)](https://www.npmjs.com/package/wp-nuxt)
 [![CircleCI](https://img.shields.io/circleci/project/github/yashha/wp-nuxt.svg?style=flat-square)](https://circleci.com/gh/yashha/wp-nuxt)
 [![Codecov](https://img.shields.io/codecov/c/github/yashha/wp-nuxt.svg?style=flat-square)](https://codecov.io/gh/yashha/wp-nuxt)
-[![Dependencies](https://david-dm.org/yashha/wp-nuxt/status.svg?style=flat-square)](https://david-dm.org/)
+[![Dependencies](https://david-dm.org/yashha/wp-nuxt/status.svg?style=flat-square)](https://david-dm.org/yashha/wp-nuxt)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyashha%2Fwp-nuxt.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyashha%2Fwp-nuxt?ref=badge_shield)
 
