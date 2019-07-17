@@ -3602,9 +3602,9 @@ eslint-plugin-import@^2.17.3:
     resolve "^1.11.0"
 
 eslint-plugin-jest@^22.6.4:
-  version "22.7.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.7.1.tgz#5dcdf8f7a285f98040378220d6beca581f0ab2a1"
-  integrity sha512-CrT3AzA738neimv8G8iK2HCkrCwHnAJeeo7k5TEHK86VMItKl6zdJT/tHBDImfnVVAYsVs4Y6BUdBZQCCgfiyw==
+  version "22.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.9.0.tgz#2573dbcb4f1066b96a6e6d3b9aa439c80b28975a"
+  integrity sha512-V89BUiwf76FHlhj1mlNhNyvpzTy8VbWCh2RZpKYz/XDSl/pcuwFiE/LMt7r3q1sRKygzEMjbYeDob8MMuvakXg==
 
 eslint-plugin-node@^9.1.0:
   version "9.1.0"
