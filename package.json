@@ -14,15 +14,17 @@
     "access": "public"
   },
   "scripts": {
+    "build": "nuxt build test/fixture",
+    "dev": "nuxt test/fixture",
+    "format": "yarn lint --fix",
     "lint": "eslint --fix lib test",
+    "preview": "standard-version --dry-run",
+    "release": "standard-version && git push --follow-tags && npm publish",
     "start": "npm run build && npm run start:server",
-    "start:server": "nuxt start -c test/fixture/nuxt.config.js",
-    "dev": "nuxt -c test/fixture/nuxt.config.js",
-    "build": "nuxt build -c test/fixture/nuxt.config.js",
+    "start:server": "nuxt start test/fixture",
     "analyze": "nuxt build --analyze -c test/fixture/nuxt.config.js",
     "test": "npm run lint && jest",
-    "codecov": "codecov",
-    "release": "yarn test && standard-version && git push --follow-tags && yarn publish"
+    "codecov": "codecov"
   },
   "eslintIgnore": [
     "lib/templates/*.*"
