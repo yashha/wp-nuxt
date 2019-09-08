@@ -1,5 +1,7 @@
 module.exports = {
-  buildDir: '../../dist',
+  generate: {
+    dir: '../../dist',
+  },
   srcDir: __dirname,
   dev: false,
   render: {
