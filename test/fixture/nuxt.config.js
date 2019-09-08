@@ -8,9 +8,10 @@ module.exports = {
   render: {
     resourceHints: false
   },
-  modules: [
-    ['~/../../', {
-      endpoint: 'https://wp.kmr.io/wp-json'
-    }]
-  ]
+  modules: [{
+    handler: require('../../')
+  }],
+  wp: {
+    endpoint: 'https://wp.kmr.io/wp-json'
+  }
 }
