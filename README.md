@@ -7,6 +7,7 @@
 [![Dependencies](https://david-dm.org/yashha/wp-nuxt/status.svg?style=flat-square)](https://david-dm.org/yashha/wp-nuxt)
 [![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fyashha%2Fwp-nuxt.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fyashha%2Fwp-nuxt?ref=badge_shield)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4bb695b5-6b46-4c3f-a866-33aaf727570a/deploy-status)](https://app.netlify.com/sites/wp-nuxt/deploys)
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
