@@ -14,7 +14,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint lib test",
+    "lint": "eslint --fix lib test",
     "start": "npm run build && npm run start:server",
     "start:server": "nuxt start -c test/fixture/nuxt.config.js",
     "dev": "nuxt -c test/fixture/nuxt.config.js",
@@ -34,21 +34,21 @@
     "wpapi": "^1.2.1"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "0.0.1",
+    "@nuxtjs/eslint-config": "1.1.2",
     "axios": "^0.19.0",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.8.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
     "codecov": "^3.5.0",
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-jest": "^22.6.4",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.2.2",
-    "jest": "^24.8.0",
-    "nuxt": "^2.8.1",
-    "standard-version": "^6.0.1"
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^5.2.3",
+    "jest": "^24.9.0",
+    "nuxt": "^2.9.2",
+    "standard-version": "^7.0.0"
   }
 }
