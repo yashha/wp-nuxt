@@ -20,8 +20,7 @@
     "lint": "eslint --fix lib test",
     "preview": "standard-version --dry-run",
     "release": "standard-version && git push --follow-tags && npm publish",
-    "start": "npm run build && npm run start:server",
-    "start:server": "nuxt start test/fixture",
+    "start": "nuxt start test/fixture",
     "analyze": "nuxt build --analyze -c test/fixture/nuxt.config.js",
     "test": "npm run lint && jest",
     "codecov": "codecov"
