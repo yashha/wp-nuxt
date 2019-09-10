@@ -1,16 +1,14 @@
-const { resolve } = require('path')
-
 module.exports = {
-  rootDir: resolve(__dirname, '../../'),
-  buildDir: resolve(__dirname, '.nuxt'),
+  generate: {
+    dir: '../../dist',
+  },
   srcDir: __dirname,
   dev: false,
   render: {
     resourceHints: false
   },
-  modules: [
-    ['~/../../', {
-      endpoint: 'https://wp.kmr.io/wp-json'
-    }]
-  ]
+  modules: [require('../../')],
+  wp: {
+    endpoint: 'https://wp.kmr.io/wp-json'
+  }
 }

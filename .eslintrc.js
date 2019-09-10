@@ -1,10 +1,10 @@
 module.exports = {
-  root: true,
-  parserOptions: {
-    parser: 'babel-eslint',
-    sourceType: 'module'
-  },
   extends: [
-    '@nuxtjs'
-  ]
+    '@nuxtjs',
+    'plugin:prettier/recommended'
+  ],
+  rules: {
+    // Allow sparse arrays
+    'no-sparse-arrays': 'off'
+  }
 }
