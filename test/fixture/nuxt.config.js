@@ -9,6 +9,7 @@ module.exports = {
   },
   modules: [require('../../')],
   wp: {
-    endpoint: 'https://wp.kmr.io/wp-json'
+    endpoint: 'https://wp.kmr.io/wp-json',
+    extensions: true
   }
 }
