@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "wpapi": "^1.2.1",
-    "wpapi-extensions": "^1.0.1"
+    "wpapi-extensions": "^1.0.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "1.1.2",
