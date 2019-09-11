@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "nuxt build test/fixture",
-    "dev": "nuxt test/fixture -p 3001",
+    "dev": "nuxt test/fixture",
     "format": "yarn lint --fix",
     "generate": "nuxt generate test/fixture",
     "lint": "eslint --fix lib test",
