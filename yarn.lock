@@ -3956,9 +3956,9 @@ eslint-plugin-node@^9.1.0:
     semver "^6.1.0"
 
 eslint-plugin-prettier@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.0.tgz#8695188f95daa93b0dc54b249347ca3b79c4686d"
-  integrity sha512-XWX2yVuwVNLOUhQijAkXz+rMPPoCr7WFiAl8ig6I7Xn+pPVhDhzg4DxHpmbeb0iqjO9UronEA3Tb09ChnFVHHA==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.1.tgz#507b8562410d02a03f0ddc949c616f877852f2ba"
+  integrity sha512-A+TZuHZ0KU0cnn56/9mfR7/KjUJ9QNVXUhwvRFSR7PGPe0zQR6PTkmyqg1AtUUEOzTqeRsUwyKFh0oVZKVCrtA==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -10272,10 +10272,10 @@ worker-farm@^1.7.0:
   dependencies:
     errno "~0.1.7"
 
-wpapi-extensions@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/wpapi-extensions/-/wpapi-extensions-1.0.1.tgz#ec5724e2b204667cf51bd611cbe8dfbf55956512"
-  integrity sha512-geuEeZKRGB6Ht/43/umncAItLzQICHROTHyzU4D3PkEr68uji8hXbJMVzPf8hAYmHErhVSIo415SnalqyccHDw==
+wpapi-extensions@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/wpapi-extensions/-/wpapi-extensions-1.0.3.tgz#7c941fe6ca585282f0b23f37aab029dcd392359c"
+  integrity sha512-xWjfGbL3YBl4OGdchT/hDxwFi7zPWdi0RgyW5R77I3mGY430vmn/LC7YFz2O1wXH4FkoLOdaQUNDMp6x6LjTgQ==
 
 wpapi@^1.2.1:
   version "1.2.1"
