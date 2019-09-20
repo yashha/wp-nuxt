@@ -2644,9 +2644,9 @@ code-point-at@^1.0.0:
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
 codecov@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.5.0.tgz#3d0748932f9cb41e1ad7f21fa346ef1b2b1bed47"
-  integrity sha512-/OsWOfIHaQIr7aeZ4pY0UC1PZT6kimoKFOFYFNb6wxo3iw12nRrh+mNGH72rnXxNsq6SGfesVPizm/6Q3XqcFQ==
+  version "3.6.0"
+  resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.6.0.tgz#6915561b7064c064e30a588ea23c1384b14d744b"
+  integrity sha512-d9SEDdgEZ1PDXLY52itsk5pMmxVbqmT4+8OCzmZOHUUOxWpmnPK2Fgz35yYUipT8QqkrDRihIvIJKjRynUdk4g==
   dependencies:
     argv "^0.0.2"
     ignore-walk "^3.0.1"
@@ -10272,10 +10272,10 @@ worker-farm@^1.7.0:
   dependencies:
     errno "~0.1.7"
 
-wpapi-extensions@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/wpapi-extensions/-/wpapi-extensions-1.0.1.tgz#ec5724e2b204667cf51bd611cbe8dfbf55956512"
-  integrity sha512-geuEeZKRGB6Ht/43/umncAItLzQICHROTHyzU4D3PkEr68uji8hXbJMVzPf8hAYmHErhVSIo415SnalqyccHDw==
+wpapi-extensions@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/wpapi-extensions/-/wpapi-extensions-1.0.3.tgz#7c941fe6ca585282f0b23f37aab029dcd392359c"
+  integrity sha512-xWjfGbL3YBl4OGdchT/hDxwFi7zPWdi0RgyW5R77I3mGY430vmn/LC7YFz2O1wXH4FkoLOdaQUNDMp6x6LjTgQ==
 
 wpapi@^1.2.1:
   version "1.2.1"
