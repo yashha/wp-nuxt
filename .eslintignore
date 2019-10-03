@@ -5,4 +5,5 @@ dist
 coverage
 
 # Plugin
-lib/plugin.js
+lib/plugin.client.js
+lib/plugin.server.js
