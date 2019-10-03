@@ -56,6 +56,10 @@ export default {
 </script>
 ```
 
+## Browser Support
+
+IE11 seems to work, but throws errors. ([Help wanted](https://github.com/yashha/wp-nuxt/issues/67))
+
 ## License
 
 [MIT License](./LICENSE)
