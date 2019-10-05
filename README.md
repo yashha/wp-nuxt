@@ -56,6 +56,25 @@ export default {
 </script>
 ```
 
+## Basic RSS feed integration
+
+To use an automatically generated rss feed under `/feed.xml` you have to add following to your the `nuxt.config.js`.
+It will automatically fetch the posts from your rest endpoint provided in the options. ([demo](https://wp-nuxt.netlify.com/feed.xml))
+
+```js
+const wpNuxtFeed = require('wp-nuxt/lib/rss')
+
+module.exports = {
+  feed: [
+    wpNuxtFeed({
+      baseUrl: 'http://localhost:3000/'
+    })
+  ]
+}
+```
+
+Any options such as title or description can be overwritten through the function options. For more options look into the  [feed module](https://github.com/nuxt-community/feed-module) and the [definition of th function](https://github.com/yashha/wp-nuxt/blob/master/lib/rss/index.js).
+
 ## Browser Support
 
 IE11 seems to work, but throws errors. ([Help wanted](https://github.com/yashha/wp-nuxt/issues/67))
