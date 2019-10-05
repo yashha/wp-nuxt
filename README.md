@@ -72,7 +72,7 @@ module.exports = {
   ]
 }
 ```
-
+To prevent injecting the default link tag into the head you can pass the option `injectDefaultHead: false`.
 Any options such as title or description can be overwritten through the function options. For more options look into the  [feed module](https://github.com/nuxt-community/feed-module) and the [definition of th function](https://github.com/yashha/wp-nuxt/blob/master/lib/rss/index.js).
 
 ## Browser Support
