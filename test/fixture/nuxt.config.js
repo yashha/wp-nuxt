@@ -1,6 +1,8 @@
+const wpNuxtFeed = require('../../lib/rss')
+
 module.exports = {
   generate: {
-    dir: '../../dist',
+    dir: '../../dist'
   },
   srcDir: __dirname,
   dev: false,
@@ -11,5 +13,10 @@ module.exports = {
   wp: {
     endpoint: 'https://wp.kmr.io/wp-json',
     extensions: true
-  }
+  },
+  feed: [
+    wpNuxtFeed({
+      baseUrl: 'http://localhost:3000'
+    })
+  ]
 }
