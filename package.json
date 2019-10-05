@@ -16,6 +16,7 @@
   "scripts": {
     "build": "nuxt build test/fixture",
     "dev": "nuxt test/fixture",
+    "dev:public": "nuxt test/fixture --hostname 0.0.0.0",
     "format": "yarn lint --fix",
     "generate": "nuxt generate test/fixture",
     "lint": "eslint --fix lib test",
@@ -33,6 +34,7 @@
     "lib"
   ],
   "dependencies": {
+    "@nuxtjs/feed": "^1.1.0",
     "wpapi": "^1.2.1",
     "wpapi-extensions": "^1.0.2"
   },
