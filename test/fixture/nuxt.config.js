@@ -1,4 +1,4 @@
-import wpNuxtFeed from '../../lib/rss'
+const wpNuxtFeed = require('../../lib/rss')
 
 module.exports = {
   generate: {
