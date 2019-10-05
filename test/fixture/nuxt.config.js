@@ -16,7 +16,7 @@ module.exports = {
   },
   feed: [
     wpNuxtFeed({
-      baseUrl: 'http://localhost:3000/'
+      baseUrl: 'http://localhost:3000'
     })
   ]
 }
