@@ -2,16 +2,14 @@ import wpNuxtFeed from '../../lib/rss'
 
 module.exports = {
   generate: {
-    dir: '../../dist',
+    dir: '../../dist'
   },
   srcDir: __dirname,
   dev: false,
   render: {
     resourceHints: false
   },
-  modules: [
-    require('../../')
-  ],
+  modules: [require('../../')],
   wp: {
     endpoint: 'https://wp.kmr.io/wp-json',
     extensions: true
