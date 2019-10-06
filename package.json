@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "nuxt build test/fixture",
-    "dev": "nuxt test/fixture",
+    "dev": "HOSTNAME=http://test:3000/ nuxt test/fixture",
     "dev:public": "nuxt test/fixture --hostname 0.0.0.0",
     "format": "yarn lint --fix",
     "generate": "nuxt generate test/fixture",
@@ -36,6 +36,7 @@
   "dependencies": {
     "@nuxtjs/feed": "^1.1.0",
     "@nuxtjs/sitemap": "^2.0.0",
+    "url-join": "^4.0.1",
     "wpapi": "^1.2.1",
     "wpapi-extensions": "^1.0.2"
   },
