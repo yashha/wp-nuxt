@@ -83,8 +83,10 @@ Using the module [nuxtjs/sitemap](https://github.com/nuxt-community/sitemap-modu
 Specific options can be overwritten like the following in the `nuxt.config.js`:
 ```js
 module.exports = {
-  wpsitemap: {
-    hostname: 'http://localhost:3000'
+  wp: {
+    sitemap: {
+      hostname: 'http://localhost:3000'
+    }
   }
 }
 ```
@@ -92,7 +94,9 @@ module.exports = {
 It can be completely overwritten using the `sitemap` property in the `nuxt.config.js` and deactivated using following:
 ```js
 module.exports = {
-  wpsitemap: false
+  wp: {
+    sitemap: false
+  }
 }
 
 ```
