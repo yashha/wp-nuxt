@@ -75,6 +75,30 @@ module.exports = {
 To prevent injecting the default link tag into the head you can pass the option `injectDefaultHead: false`.
 Any options such as title or description can be overwritten through the function options. For more options look into the  [feed module](https://github.com/nuxt-community/feed-module) and the [definition of th function](https://github.com/yashha/wp-nuxt/blob/master/lib/rss/index.js).
 
+
+## Basic sitemap integration
+Using the module [nuxtjs/sitemap](https://github.com/nuxt-community/sitemap-module) a opinionated sitemap is provided by default.
+
+
+Specific options can be overwritten like the following in the `nuxt.config.js`:
+```js
+module.exports = {
+  wpsitemap: {
+    hostname: 'http://localhost:3000'
+  }
+}
+```
+
+It can be completely overwritten using the `sitemap` property in the `nuxt.config.js` and deactivated using following:
+```js
+module.exports = {
+  wpsitemap: false
+}
+
+```
+
+See more options in the extension [nuxtjs/sitemap](https://github.com/nuxt-community/sitemap-module) or in the following [file](https://github.com/yashha/wp-nuxt/blob/master/lib/module/sitemap.js)
+
 ## Browser Support
 
 IE11 seems to work, but throws errors. ([Help wanted](https://github.com/yashha/wp-nuxt/issues/67))
