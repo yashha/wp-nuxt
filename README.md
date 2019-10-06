@@ -85,7 +85,7 @@ Specific options can be overwritten like the following in the `nuxt.config.js`:
 module.exports = {
   wp: {
     sitemap: {
-      hostname: 'http://localhost:3000'
+      hostname: process.env.HOSTNAME // default; format e.g. 'http://localhost:3000'
     }
   }
 }
