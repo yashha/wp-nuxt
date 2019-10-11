@@ -14,7 +14,5 @@ module.exports = {
     endpoint: 'https://wp.kmr.io/wp-json',
     extensions: true
   },
-  feed: [
-    wpNuxtFeed()
-  ]
+  feed: [wpNuxtFeed()]
 }
