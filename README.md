@@ -31,7 +31,7 @@ The size of the library is 49,8 kB minified (14 kB gzipped). [![npm bundle size]
 
     // With options
     ['wp-nuxt', {
-      endpoint: 'https://wp.kmr.io/wp-json'
+      endpoint: 'https://wp.kmr.io/wp-json',
       extensions: true // For additional functions of wpapi-extensions
       /* other options of WP-API */
     }],
