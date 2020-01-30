@@ -9,7 +9,7 @@
     }
   ],
   "main": "lib/module.js",
-  "repository": "https://github.com/",
+  "repository": "https://github.com/yashha/wp-nuxt/",
   "publishConfig": {
     "access": "public"
   },
