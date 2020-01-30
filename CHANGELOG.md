@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.23](https://github.com/yashha/wp-nuxt/compare/v1.0.22...v1.0.23) (2020-01-30)
+
 ### [1.0.22](https://github.com/yashha/wp-nuxt/compare/v1.0.21...v1.0.22) (2020-01-30)
 
 ### [1.0.21](https://github.com///compare/v1.0.20...v1.0.21) (2019-10-11)
