@@ -52,8 +52,5 @@
     "jest": "^25.1.0",
     "nuxt": "^2.11.0",
     "standard-version": "^7.1.0"
-  },
-  "engines": {
-    "node": "13.x"
   }
 }
