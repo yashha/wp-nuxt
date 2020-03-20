@@ -41,7 +41,7 @@
     "wpapi-extensions": "^1.0.3"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "2.0.0",
+    "@nuxtjs/eslint-config": "2.0.2",
     "axios": "^0.19.2",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^25.1.0",
