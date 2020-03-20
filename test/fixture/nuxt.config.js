@@ -12,7 +12,14 @@ module.exports = {
   modules: [require('../../')],
   wp: {
     endpoint: 'https://wp.kmr.io/wp-json',
-    extensions: true
+    extensions: true,
+    customRoutes: [
+      {
+        extension: 'wp/v2',
+        route: 'custom-taxonomy',
+        name: 'customTaxonomy'
+      }
+    ]
   },
   feed: [wpNuxtFeed()]
 }

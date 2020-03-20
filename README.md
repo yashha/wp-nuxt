@@ -103,6 +103,24 @@ module.exports = {
 
 See more options in the extension [nuxtjs/sitemap](https://github.com/nuxt-community/sitemap-module) or in the following [file](https://github.com/yashha/wp-nuxt/blob/master/lib/module/sitemap.js)
 
+## Custom Routes
+You can register your own routes e.g. for custom extentions.
+
+```js
+module.exports = {
+  wp: {
+    endpoint: 'https://wp.kmr.io/wp-json',
+    customRoutes: [
+      {
+        extension: 'wp/v2',
+        route: 'custom-taxonomy',
+        name: 'customTaxonomy'
+      }
+    ]
+  }
+}
+```
+This will call `wp.customTaxonomy = wp.registerRoute('wp/v2','custom-taxonomy'` and make it available as `app.$wp.customTaxonomy()`
 
 ## Auto-Discovery
 
