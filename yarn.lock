@@ -10606,9 +10606,9 @@ worker-farm@^1.7.0:
     errno "~0.1.7"
 
 wpapi-extensions@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/wpapi-extensions/-/wpapi-extensions-1.0.3.tgz#7c941fe6ca585282f0b23f37aab029dcd392359c"
-  integrity sha512-xWjfGbL3YBl4OGdchT/hDxwFi7zPWdi0RgyW5R77I3mGY430vmn/LC7YFz2O1wXH4FkoLOdaQUNDMp6x6LjTgQ==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/wpapi-extensions/-/wpapi-extensions-1.0.7.tgz#a1c15ae8ead830a8e82e11ef86552b46e8dac464"
+  integrity sha512-QEgy/gsVML4SZCc+Af+i/yz9UKHZ2npCZZV3xkKnkmMv0x0Op2OK7w1L2CCIbdLU+59ctOqJnkqnbxWiLND/uA==
 
 wpapi@^1.2.1:
   version "1.2.1"
