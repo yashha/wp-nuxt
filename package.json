@@ -38,7 +38,7 @@
     "@nuxtjs/sitemap": "^2.0.1",
     "url-join": "^4.0.1",
     "wpapi": "^1.2.1",
-    "wpapi-extensions": "^1.0.3"
+    "wpapi-extensions": "^1.0.9"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "2.0.2",
