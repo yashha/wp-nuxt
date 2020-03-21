@@ -103,6 +103,40 @@ module.exports = {
 
 See more options in the extension [nuxtjs/sitemap](https://github.com/nuxt-community/sitemap-module) or in the following [file](https://github.com/yashha/wp-nuxt/blob/master/lib/module/sitemap.js)
 
+## Custom Routes
+You can register your own routes e.g. for custom extentions.
+
+```js
+module.exports = {
+  wp: {
+    endpoint: 'https://wp.kmr.io/wp-json',
+    customRoutes: [
+      {
+        extension: 'wp/v2',
+        route: 'custom-taxonomy',
+        name: 'customTaxonomy'
+      }
+    ]
+  }
+}
+```
+This will call `wp.customTaxonomy = wp.registerRoute('wp/v2','custom-taxonomy'` and make it available as `app.$wp.customTaxonomy()`
+
+## Auto-Discovery
+
+For more infos: https://github.com/WP-API/node-wpapi/tree/master#auto-discovery
+
+```js
+module.exports = {
+  wp: {
+    endpoint: 'https://wp.kmr.io/wp-json',
+    discover: true // To auto-discover routes by url provided in 'endpoint'
+  }
+}
+```
+
+Info: Make sure to handle CORS correctly. s. https://github.com/WP-API/node-wpapi/tree/master#cross-origin-auto-discovery
+
 ## Browser Support
 
 IE11 seems to work, but throws errors. ([Help wanted](https://github.com/yashha/wp-nuxt/issues/67))
