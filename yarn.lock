@@ -1304,12 +1304,12 @@
     fs-extra "^7.0.1"
 
 "@nuxtjs/sitemap@^2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/sitemap/-/sitemap-2.0.1.tgz#084c2b2bf3ded2b37886507e7ab63021f1b9e3d6"
-  integrity sha512-/0VrxWj8Q9asxvGcvb4o5VeCrPjK/X2bOOriI59nfXop6e95GdSQsF2vtAe3WH6V89M3Q3tM7ytTuh6OeH7YYw==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/sitemap/-/sitemap-2.1.0.tgz#3f3825f1b41bb57a96b20c8e2e58ace7c1396c4f"
+  integrity sha512-kK5LXU0Ku8gBuPRpYO33TR0bdaVbil3Z8J3ZQFcglsa3kvewNSds3YOxo0F0adi/7djFjgNw0mHRAWthlxl4Tw==
   dependencies:
     async-cache "^1.1.0"
-    consola "^2.11.0"
+    consola "^2.11.3"
     fs-extra "^8.1.0"
     is-https "^1.0.0"
     lodash.unionby "^4.8.0"
@@ -2925,7 +2925,7 @@ connect@^3.7.0:
     parseurl "~1.3.3"
     utils-merge "1.0.1"
 
-consola@^2.10.0, consola@^2.10.1, consola@^2.11.0, consola@^2.11.3, consola@^2.3.2, consola@^2.6.0, consola@^2.9.0:
+consola@^2.10.0, consola@^2.10.1, consola@^2.11.3, consola@^2.3.2, consola@^2.6.0, consola@^2.9.0:
   version "2.11.3"
   resolved "https://registry.yarnpkg.com/consola/-/consola-2.11.3.tgz#f7315836224c143ac5094b47fd4c816c2cd1560e"
   integrity sha512-aoW0YIIAmeftGR8GSpw6CGQluNdkWMWh3yEFjH/hmynTYnMtibXszii3lxCXmk8YxJtI3FAK5aTiquA5VH68Gw==
