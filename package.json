@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "2.0.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^25.1.0",
     "codecov": "^3.6.2",
@@ -51,6 +51,6 @@
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
     "nuxt": "^2.11.0",
-    "standard-version": "^7.1.0"
+    "standard-version": "^9.1.0"
   }
 }
