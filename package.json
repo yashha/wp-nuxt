@@ -34,7 +34,7 @@
     "lib"
   ],
   "dependencies": {
-    "@nuxtjs/feed": "^1.1.0",
+    "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/sitemap": "^2.0.1",
     "url-join": "^4.0.1",
     "wpapi": "^1.2.1",
