@@ -1,0 +1,33 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@nuxtjs/eslint-config"
+    versions:
+    - 5.0.0
+    - 5.0.0
+    - 5.0.0
+    - 5.0.0
+    - 6.0.0
+    - 6.0.0
+  - dependency-name: eslint
+    versions:
+    - 7.18.0
+    - 7.19.0
+    - 7.20.0
+    - 7.21.0
+    - 7.22.0
+    - 7.23.0
+  - dependency-name: nuxt
+    versions:
+    - 2.15.0
+    - 2.15.1
+    - 2.15.2
+    - 2.15.3
+  - dependency-name: standard-version
+    versions:
+    - 9.1.1
